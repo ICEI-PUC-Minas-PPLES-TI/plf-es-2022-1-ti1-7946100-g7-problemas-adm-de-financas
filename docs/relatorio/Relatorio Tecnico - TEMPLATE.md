@@ -105,7 +105,7 @@ Coletamos das informações por meio de entrevistas realizadas presencialmente e
 > 2. Sonha em comprar um carro e fazer viagens
 > 3. Usa diariamente o computador
 
-![Workflow Branchs](images/persona_.png)
+![persona_.JPG](images/persona_.JPG)
 
 
 ## Histórias de Usuários
@@ -162,6 +162,7 @@ O projeto consiste em telas de notificação de textos pré-definidos por perfil
 
 ## Wireframes
 
+![wireframe_g7.JPG](images/wireframe_g7.JPG)
 
 # Metodologia
 
@@ -170,16 +171,10 @@ Neste trabalho foi utilizado como metodologia o Design Thinking e o Scrum Framew
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> *Links Úteis*:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+Definimos pela ferramenta Project do próprio GitHub, para acompanhamento das atividades e para divisão de papéis, utilizamos a pontuação de dificuldade de cada tarefa definida na metodologia Scrum. Dividiu-se as tarefas em grupos de pontuações similares. Assim, cada integrante ficou responsável por um destes grupos de tarefas.
 
 
-![Workflow Branchs](images/github_g7.png)
+![github_g7.JPG](images/github_g7.JPG)
 
 ## Ferramentas
 
@@ -214,7 +209,7 @@ O sistema de versionamento de código é efetuado por meio de Pull Requests e Is
 
 Logo, o workflow relacionado ao sistema de branches pode ser observado na imagem a seguir:
 
-![Workflow Branchs](images/sistema-branch.png)
+![sistema-branch.png](images/sistema-branch.png)
 
 ############### SPRINT 1 ACABA AQUI #############*
 
