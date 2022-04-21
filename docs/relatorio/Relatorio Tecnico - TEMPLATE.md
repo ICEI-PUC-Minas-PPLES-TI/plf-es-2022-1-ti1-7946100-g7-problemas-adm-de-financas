@@ -105,6 +105,9 @@ Coletamos das informações por meio de entrevistas realizadas presencialmente e
 > 2. Sonha em comprar um carro e fazer viagens
 > 3. Usa diariamente o computador
 
+![Workflow Branchs](images/persona_.png)
+
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -123,23 +126,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Gerar um relatório de gastos mensais, anuais e semanais | - | 
-|RF-002| Mostrar a porcentagem de gastos em cada categoria.(restaurante, mercado, cosméticos...) | - |
-|RF-003| Mostrar a porcentagem de gastos com base no valor inicial que o usuário tem na conta | - |
-|RF-004| Notificar o usuário sobre seus gastos | - |
-|RF-005| Ferramenta para delimitar uma certa quantia que o prórpio usuário deseja gastar até um determinado período | - |
-|RF-006| Mostrar o valor e a porcentagem sobre o montante final em razão dos valores de entrada e saída | - |
-|RF-007| Mostrar o gasto recomendado para cada categoria | - |
-|RF-008| Priorizar o gasto em categorias que o próprio usuário delimita | - |
+|RF-001| Gerar um relatório de gastos mensais, anuais e semanais | ALTA | 
+|RF-002| Mostrar a porcentagem de gastos em cada categoria.(restaurante, mercado, cosméticos...) | ALTA |
+|RF-003| Mostrar a porcentagem de gastos com base no valor inicial que o usuário tem na conta | ALTA |
+|RF-004| Notificar o usuário sobre seus gastos | ALTA |
+|RF-005| Ferramenta para delimitar uma certa quantia que o prórpio usuário deseja gastar até um determinado período | MÉDIA |
+|RF-006| Mostrar o valor e a porcentagem sobre o montante final em razão dos valores de entrada e saída | ALTA |
+|RF-007| Mostrar o gasto recomendado para cada categoria | ALTA |
+|RF-008| Priorizar por peso de importância do gasto em categorias que o próprio usuário delimita | ALTA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| Função para aplicativos de banco | - | 
-|RNF-002| Pode ser acessado de qualquer plataforma(smartphone, tablet, pc...) | - | 
-|RNF-003| O cálculo dos gastos deve levar em torno de 2 segundos para ser gerado e mostrado | - |
+|RNF-001| Função adicional para aplicativos de banco | ALTA | 
+|RNF-002| Pode ser acessado de qualquer plataforma(smartphone, tablet, pc...) | MÉDIA | 
+|RNF-003| O cálculo dos gastos deve levar em torno de 2 segundos para ser gerado e mostrado | MÉDIA |
 
 
 ## Restrições
@@ -154,28 +157,17 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
+O projeto consiste em telas de notificação de textos pré-definidos por perfil de consumo, usando a identidade visual de cada banco ou corretora digital. E mais 3 telas principais, são elas: 1) Contendo um relatório de gastos mensais, anuais e semanais; 2) Para inserção de pesos de importância definidas pelo próprio usuário por categorias; 3) Contendo as estimativas de gastos e ganhos mais adequados para as metas estabelecidas pelo próprio usuário. 
+
+
 ## Wireframes
 
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Neste trabalho foi utilizado como metodologia o Design Thinking e o Scrum Framework. O primeiro para identificação e concepção do problema a ser abordado. O segundo, foi utilizado para facilitar a transição entre o desenvolvimento e a fase de concepção observadas no Design Thinking.
 
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> *Links Úteis*:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+
 ## Divisão de Papéis
 
 ......  COLOQUE AQUI O SEU TEXTO ......
@@ -186,53 +178,45 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
 > - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
 
-## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
+![Workflow Branchs](images/github_g7.png)
+
+## Ferramentas
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVOAwChs0=/ | 
+|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-g7-problemas-adm-de-financas.git | 
+|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-g7-problemas-adm-de-financas.git | 
+|Protótipo Interativo | MavelApp ou Figma | https://www.figma.com/file/O7dKxbsCO8XQLyYc5kMhD0/Wireframing-in-Figma?node-id=0%3A1 | 
 
 
 ## Controle de Versão
+O sistema de versionamento de código é efetuado por meio de Pull Requests e Issues.
 
-......  COLOQUE AQUI O SEU TEXTO ......
+* Branch:
+	* `master`: versão final do projeto;
+	* `homologacao`: versão de testes, pode ocorrer inconsistências com a master;
+	* `iss`: branches para o desenvolvedor modificar e criar códigos.
 
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
-> O projeto segue a seguinte convenção para o nome de branchs:
-> 
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
-> 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> *Links Úteis*:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> *Exemplo - GitHub Feature Branch Workflow*:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
-# *############## SPRINT 1 ACABA AQUI #############*
+* Pull Request:
+	* Ocorre uma vez por semana;
+	* Merge das branches iss para a master;
+	* Responsabilidade do Scrum Master.
+	* utilizam o sistema de labels das issues
+
+* Issue:
+	* Criação de uma nova branch para cada issue;
+	* Merge em homologação após finalização da issue;
+	* Nome "username" + "/" + "issue" + "número do issue";
+	* utilizaram o sistema de labels descrito na imagem abaixo:
+
+
+Logo, o workflow relacionado ao sistema de branches pode ser observado na imagem a seguir:
+
+![Workflow Branchs](images/sistema-branch.png)
+
+############### SPRINT 1 ACABA AQUI #############*
 
 
 # Projeto da Solução
