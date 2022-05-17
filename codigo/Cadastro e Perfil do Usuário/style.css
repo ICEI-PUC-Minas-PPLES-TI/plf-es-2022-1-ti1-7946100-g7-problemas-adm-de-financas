@@ -59,7 +59,7 @@ h1 {
 }
 
 /* ======  RESPONSIVIDADE ============================== */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
   .button-group input {
     margin-top: 10px;
 
