@@ -54,3 +54,15 @@ h1 {
   background-color: var(--brand-dark) !important;
 }
 
+#table {
+  overflow-x: auto;
+}
+
+/* ======  RESPONSIVIDADE ============================== */
+@media screen and (max-width: 600px) {
+  .button-group input {
+    margin-top: 10px;
+
+    width: 100%;
+  }
+}
