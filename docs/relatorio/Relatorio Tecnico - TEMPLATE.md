@@ -172,6 +172,15 @@ Neste trabalho foi utilizado como metodologia o Design Thinking e o Scrum Framew
 
 Definimos pela ferramenta Project do próprio GitHub, para acompanhamento das atividades e para divisão de papéis, utilizamos a pontuação de dificuldade de cada tarefa definida na metodologia Scrum. Dividiu-se as tarefas em grupos de pontuações similares. Assim, cada integrante ficou responsável por um destes grupos de tarefas.
 
+Eron Panes de Moraes (template do site) 
+
+Henrique Pinto Santos (tela de cadastro de usuários e cadastro de categorias) 
+
+João Pedro Campos de Barcelos (tela de login) 
+
+Pablo Guilherme Amâncio Pereira Magela (tela de cálculo de gastos por categoria) 
+
+Wagner Rogerio Ferreira Pinheiro (tela definição de metas) 
 
 ![github_g7.JPG](images/github_g7.JPG)
 
