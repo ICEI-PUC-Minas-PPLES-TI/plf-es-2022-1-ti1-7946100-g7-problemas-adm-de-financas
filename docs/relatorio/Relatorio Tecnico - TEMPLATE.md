@@ -285,11 +285,28 @@ Logo, o workflow relacionado ao sistema de branches pode ser observado na imagem
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+https://blog.trello.com/br/trello-passo-a-passo 
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> *Links Úteis*:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+ 
+
+https://www.devmedia.com.br/introducao-ao-scrum/33724 
+
+ 
+
+https://www.sebrae.com.br/sites/PortalSebrae/artigos/design-thinking-inovacao-pela-criacao-de-valor-para-o-cliente,c06e9889ce11a410VgnVCM1000003b74010aRCRD 
+
+ 
+
+https://www.thinkwithgoogle.com/intl/pt-br/estrategias-de-marketing/apps-e-mobile/ux-user-experience/ 
+
+ 
+
+https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage 
+
+ 
+
+https://help.miro.com/hc/en-us/categories/360001415214-Getting-Started 
+
+ 
+
+https://kanbanize.com/pt/recursos-kanban/primeiros-passos/o-que-e-quadro-kanban 
