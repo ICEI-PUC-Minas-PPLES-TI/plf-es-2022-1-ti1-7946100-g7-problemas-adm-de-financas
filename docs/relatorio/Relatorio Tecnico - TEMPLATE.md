@@ -220,51 +220,41 @@ Logo, o workflow relacionado ao sistema de branches pode ser observado na imagem
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para solução do problema proposto será utlizado para linguagem de marcação o 
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+html, unido ao css para customização. E para realização de integrações, funcionalidades e json utilizamos o java script. 
+
+Ao entrar no site o usuário encontrará a tela de login com opção de criar a conta. Para realização dessa funcionalidade foi feito um formulário usando java script, e validações com a mesma tecnologia. Após o login ser efetuado o usuário terá acesso a uma tela de criação de eventos onde poderá preencher as principais informações para cadastrar seu evento. Ele também poderá procurar eventos já criados através da procura pelo json.
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+Como arquitetura da solução utilizamos as ferramentas de desenvolvimento front- end html, css e java script. Essas que por sua vez armazenam os dados de cadastro no local storage e são hospedadas através da plataforma do Github.
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> *Exemplo do diagrama de Arquitetura*:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Teste de Cadastro: Para esse cenário de testes o objetivo é conferir se o sistema de cadastro funciona e bloqueia erros de digitação caso ocorram. 
 
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+ 
+
+ 
+
+Teste de Login: Para esse cenário de testes o objetivo é conferir se o sistema efetua login caso o cadastro tenha sido realizado e dessa forma seja possível acessar a plataforma. 
+
+ 
+
+ 
+
+Teste Tela Principal: Para esse cenário de testes o objetivo é conferir se os botões que encaminham até as funcionalidades funcionem da forma correta. 
+
+ 
+
+ 
+
+Teste Cadastro de Categorias: Para esse cenário o objetivo é conferir se o cadastro de categorias consegue ser efetuado de forma correta. 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> *Links Úteis*:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+Para execução do plano de testes foi utilizado a metodologia caixa preta que prioriza os testes por funcionalidade.
 ## Ferramentas de Testes (Opcional)
 
 ......  COLOQUE AQUI O SEU TEXTO ......
@@ -276,12 +266,7 @@ Logo, o workflow relacionado ao sistema de branches pode ser observado na imagem
 > - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
+Os resultados obtidos com os testes foram positivos. Não foram identificados erros graves. A maior parte das funcionalidades não apresentou erros em um primeiro momento. As funções foram testadas e validadas. 
 
 # Referências
 
