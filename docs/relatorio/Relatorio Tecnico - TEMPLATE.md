@@ -162,7 +162,7 @@ O projeto consiste em telas de notificação de textos pré-definidos por perfil
 
 ## Wireframes
 
-![wireframe_g7.JPG](images/wireframe_g7.JPG)
+![chart](https://user-images.githubusercontent.com/103906307/177448081-94f5d65f-5a7d-4cb2-9fee-dec243cf47ab.png)
 
 # Metodologia
 
@@ -173,15 +173,8 @@ Neste trabalho foi utilizado como metodologia o Design Thinking e o Scrum Framew
 
 Definimos pela ferramenta Project do próprio GitHub, para acompanhamento das atividades e para divisão de papéis, utilizamos a pontuação de dificuldade de cada tarefa definida na metodologia Scrum. Dividiu-se as tarefas em grupos de pontuações similares. Assim, cada integrante ficou responsável por um destes grupos de tarefas.
 
-Eron Panes de Moraes (template do site) 
 
-Henrique Pinto Santos (tela de cadastro de usuários e cadastro de categorias) 
-
-João Pedro Campos de Barcelos (tela de login) 
-
-Pablo Guilherme Amâncio Pereira Magela (tela de cálculo de gastos por categoria) 
-
-Wagner Rogerio Ferreira Pinheiro (tela definição de metas)
+![github_g7.JPG](images/github_g7.JPG)
 
 ## Ferramentas
 
@@ -218,7 +211,15 @@ Logo, o workflow relacionado ao sistema de branches pode ser observado na imagem
 
 ![sistema-branch.png](images/sistema-branch.png)
 
+
+
+
+
+
+
 # Projeto da Solução
+
+......  COLOQUE AQUI O SEU TEXTO ......
 
 ## Tecnologias Utilizadas
 
@@ -254,11 +255,18 @@ Teste Tela Principal: Para esse cenário de testes o objetivo é conferir se os 
  
 
 Teste Cadastro de Categorias: Para esse cenário o objetivo é conferir se o cadastro de categorias consegue ser efetuado de forma correta. 
-
 ## Plano de Testes
 
 Para execução do plano de testes foi utilizado a metodologia caixa preta que prioriza os testes por funcionalidade.
+## Ferramentas de Testes (Opcional)
 
+......  COLOQUE AQUI O SEU TEXTO ......
+
+> Comente sobre as ferramentas de testes utilizadas.
+> 
+> *Links Úteis*:
+> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 ## Registros de Testes
 
 Os resultados obtidos com os testes foram positivos. Não foram identificados erros graves. A maior parte das funcionalidades não apresentou erros em um primeiro momento. As funções foram testadas e validadas. 
