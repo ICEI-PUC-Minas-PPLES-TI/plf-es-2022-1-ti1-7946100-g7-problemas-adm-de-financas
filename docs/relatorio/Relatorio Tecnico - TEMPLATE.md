@@ -218,7 +218,6 @@ Logo, o workflow relacionado ao sistema de branches pode ser observado na imagem
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
 ## Tecnologias Utilizadas
 
