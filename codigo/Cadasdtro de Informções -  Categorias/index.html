@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cadastro de Categorias</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body onload="init()">
+    <h1>Cadastro de Categorias</h1>
+
+    <div class="container">
+      <div class="row">
+        <div id="msg" class="col-sm-10 offset-sm-1">
+          <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
+        </div>
+      </div>
+
+      <form id="form-categoria">
+        <div class="form-group row">
+          <div class="col-sm-4">
+            <label for="inputId">Id</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputId"
+              placeholder="ID"
+              disabled
+            />
+          </div>
+          <div class="col-sm-8">
+            <label for="inputNome">Nome (*)</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputNome"
+              required
+              placeholder="Informe o nome da Categoria"
+            />
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-12">
+            <label for="inputLimite">Limite de Gastos (*)</label>
+            <input
+              type="number"
+              class="form-control"
+              id="inputLimite"
+              required
+              placeholder="xxxxx.xx"
+            />
+          </div>
+        </div>
+
+        <div class="form-group row button-group">
+          <div class="col-sm-12">
+            <input
+              type="button"
+              class="btn btn-success"
+              id="btnInsert"
+              value="Inserir"
+            />
+            <input
+              type="button"
+              class="btn btn-warning"
+              id="btnUpdate"
+              value="Alterar"
+            />
+            <input
+              type="button"
+              class="btn btn-danger"
+              id="btnDelete"
+              value="Excluir"
+            />
+            <input
+              type="button"
+              class="btn btn-secondary"
+              id="btnClear"
+              value="Limpar Form"
+            />
+          </div>
+        </div>
+      </form>
+
+      <div class="row">
+        <div class="col-sm-12" id="table">
+          <table id="grid-categorias" class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Limite</th>
+              </tr>
+            </thead>
+            <tbody id="table-categorias">
+              <tr>
+                <td scope="row">1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+      function exibeCategorias() {
+        // Remove todas as linhas do corpo da tabela
+        $('#table-categorias').html('')
+
+        // Popula a tabela com os registros do banco de dados
+        for (i = 0; i < db.data.length; i++) {
+          let categoria = db.data[i]
+          $('#table-categorias')
+            .append(`<tr><td scope="row">${categoria.id}</td>
+                                                <td>${categoria.nome}</td>
+                                                <td>${categoria.limite}</td>
+                                            </tr>`)
+        }
+      }
+
+      function init() {
+        // Adiciona funções para tratar os eventos
+        $('#btnInsert').click(function () {
+          // Verfica se o formulário está preenchido corretamente
+          if (!$('#form-categoria')[0].checkValidity()) {
+            displayMessage('Preencha o formulário corretamente.')
+            return
+          }
+
+          // Obtem os valores dos campos do formulário
+          let campoNome = $('#inputNome').val()
+          let campoLimite = $('#inputLimite').val()
+          let categoria = {
+            nome: campoNome,
+            limite: campoLimite
+          }
+
+          insertCategoria(categoria)
+
+          // Reexibe os contatos
+          exibeCategorias()
+
+          // Limpa o formulario
+          $('#form-categoria')[0].reset()
+        })
+
+        // Intercepta o click do botão Alterar
+        $('#btnUpdate').click(function () {
+          // Obtem os valores dos campos do formulário
+          let campoId = $('#inputId').val()
+          if (campoId == '') {
+            displayMessage('Selecione uma categoria para ser alterado.')
+            return
+          }
+          let campoNome = $('#inputNome').val()
+          let campoLimite = $('#inputLimite').val()
+          let categoria = {
+            nome: campoNome,
+            limite: campoLimite
+          }
+
+          updateCategoria(parseInt(campoId), categoria)
+
+          // Reexibe os contatos
+          exibeCategorias()
+
+          // Limpa o formulario
+          $('#form-categoria')[0].reset()
+        })
+
+        // Intercepta o click do botão Excluir
+        $('#btnDelete').click(function () {
+          let campoId = $('#inputId').val()
+          if (campoId == '') {
+            displayMessage('Selecione uma categoria a ser excluída.')
+            return
+          }
+          deleteCategorias(parseInt(campoId))
+
+          // Reexibe os contatos
+          exibeCategorias()
+
+          // Limpa o formulario
+          $('#form-categoria')[0].reset()
+        })
+
+        // Intercepta o click do botão Listar Contatos
+        $('#btnClear').click(function () {
+          $('#form-categoria')[0].reset()
+        })
+
+        // Oculta a mensagem de aviso após alguns segundos
+        $('#msg').bind('DOMSubtreeModified', function () {
+          window.setTimeout(function () {
+            $('.alert')
+              .fadeTo(500, 0)
+              .slideUp(500, function () {
+                $(this).remove()
+              })
+          }, 5000)
+        })
+
+        // Preenche o formulário quando o usuario clicar em uma linha da tabela
+        $('#grid-categorias').on('click', 'tr', function (e) {
+          let linhaCategoria = this
+          colunas = linhaCategoria.querySelectorAll('td')
+
+          $('#inputId').val(colunas[0].innerText)
+          $('#inputNome').val(colunas[1].innerText)
+          $('#inputLimite').val(colunas[2].innerText)
+        })
+
+        exibeCategorias()
+      }
+    </script>
+  </body>
+</html>
