@@ -1,27 +1,29 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: SIP - Chamados Prediais
+title: Problemas da Administração de Finanças (DE OLHO NA CONTA)
 authors:
-  - family-names: Mattioly Andrade
-    given-names: Bárbara
-  - family-names: Enísia Rodrigues Melo
-    given-names: Laura
-  - family-names: Antonio Miranda Ferreira
-    given-names: Marco
-  - family-names: Henrique Pimenta Ribeiro
-    given-names: Pedro
+  - family-names: Panes de Moraes
+    given-names: Eron
+  - family-names: Pinto Santos
+    given-names: Henrique
+  - family-names: Campos de Barcelos
+    given-names: João Pedro
+  - family-names: Guilherme Amâncio Pereira Magela
+    given-names: Pablo
+  - family-names: Rogério Ferreira Pinheiro
+    given-names: Wagner
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: Vieira Carneiro
-    given-names: Rommel 
+    family-names: Silva Barbosa
+    given-names: Joao Luiz 
   - name-suffix: Professora
     affiliation: PUC Minas
-    family-names: Soares Vieira de Vasconcelos
-    given-names: Amália
+    family-names: Alves Nogueira
+    given-names: Simone
 keywords:
-  - Chamados Prediais
-  - Agilidade
-repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-02-grupo-5-sip
+  - Administração de Finanças
+  - Conta
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-g7-problemas-adm-de-financas
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2022-07-05
