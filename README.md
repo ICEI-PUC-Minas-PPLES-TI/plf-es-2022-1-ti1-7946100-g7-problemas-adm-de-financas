@@ -15,6 +15,3 @@ Desenvolvimento de módulo adicional pensado para apoiar pessoas que possuem con
 * Joao Luiz Silva Barbosa
 * Simone Alves Nogueira
 
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
